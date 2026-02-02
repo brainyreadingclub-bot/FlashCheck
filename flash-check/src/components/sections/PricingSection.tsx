@@ -1,36 +1,33 @@
 'use client'
 
 import { motion } from 'framer-motion'
-import { Check, Gift, ArrowRight } from 'lucide-react'
+import { Clock, Code, BarChart3, Zap, ArrowRight, Gift } from 'lucide-react'
 
 const comparisonItems = [
   {
     label: '랜딩페이지 제작',
-    traditional: '2주',
+    traditional: '1~2주',
     flashcheck: '10분',
+    icon: Clock,
   },
   {
-    label: '비용',
-    traditional: '300~500만 원',
-    flashcheck: '19,000원/월',
+    label: '필요한 기술',
+    traditional: '코딩, 디자인, 카피라이팅',
+    flashcheck: 'XYZ 가설만 입력',
+    icon: Code,
   },
   {
     label: '트래픽 확보',
-    traditional: '별도 광고 대행',
-    flashcheck: '자동 연동',
+    traditional: '별도 광고 대행 필요',
+    flashcheck: '트래픽 부스터 연동',
+    icon: Zap,
   },
   {
     label: '데이터 분석',
-    traditional: '수동 취합',
-    flashcheck: '실시간 대시보드',
+    traditional: '수동 취합 및 해석',
+    flashcheck: 'AI 자동 판정 (Go/Drop)',
+    icon: BarChart3,
   },
-]
-
-const features = [
-  '신용카드 불필요',
-  '7일 무료 체험',
-  '언제든 취소 가능',
-  '숨겨진 비용 없음',
 ]
 
 export function PricingSection() {
@@ -58,100 +55,86 @@ export function PricingSection() {
             className="inline-block px-3 py-1 text-xs font-semibold tracking-wider uppercase mb-6"
             style={{ background: 'var(--lime)', color: 'var(--ink)' }}
           >
-            가격 비교
+            왜 FlashCheck인가
           </span>
 
           <h2
             className="font-display text-3xl lg:text-5xl font-bold leading-tight mb-4"
             style={{ color: 'var(--ink)' }}
           >
-            외주 맡기면{' '}
-            <span className="line-through opacity-50">500만 원</span>,
-            <br />
-            FlashCheck는{' '}
-            <span style={{ color: 'var(--electric)' }}>19,000원</span>
+            기존 방식 vs FlashCheck
           </h2>
 
-          <p style={{ color: 'var(--ink-muted)' }}>
-            검증 비용을 99% 절감하세요.
+          <p className="text-lg max-w-2xl mx-auto" style={{ color: 'var(--ink-muted)' }}>
+            아이디어 검증에 몇 주, 수백만 원을 쓰지 마세요.
+            <br />
+            <strong style={{ color: 'var(--ink)' }}>10분이면 시장의 답을 얻습니다.</strong>
           </p>
         </motion.div>
 
-        {/* Comparison Table */}
-        <motion.div
-          initial={{ opacity: 0, y: 30 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true }}
-          transition={{ duration: 0.6, delay: 0.1 }}
-          className="mb-12"
-        >
-          <div
-            className="overflow-hidden"
-            style={{
-              background: 'var(--paper)',
-              border: '2px solid var(--ink)',
-            }}
-          >
-            {/* Table Header */}
-            <div className="grid grid-cols-3" style={{ background: 'var(--ink)' }}>
-              <div className="p-4 lg:p-6">
-                <span className="text-sm font-semibold" style={{ color: 'var(--paper)' }}>
-                  비교 항목
-                </span>
-              </div>
-              <div className="p-4 lg:p-6 text-center border-l border-white/10">
-                <span className="text-sm font-semibold" style={{ color: 'var(--ink-muted)' }}>
-                  기존 방식
-                </span>
-              </div>
-              <div className="p-4 lg:p-6 text-center border-l border-white/10" style={{ background: 'var(--lime)' }}>
-                <span className="text-sm font-bold" style={{ color: 'var(--ink)' }}>
-                  FlashCheck
-                </span>
-              </div>
-            </div>
-
-            {/* Table Body */}
-            {comparisonItems.map((item, index) => (
-              <motion.div
-                key={index}
-                initial={{ opacity: 0, x: -20 }}
-                whileInView={{ opacity: 1, x: 0 }}
-                viewport={{ once: true }}
-                transition={{ duration: 0.4, delay: 0.2 + index * 0.1 }}
-                className="grid grid-cols-3"
-                style={{ borderTop: '1px solid var(--border)' }}
+        {/* Comparison Cards */}
+        <div className="grid md:grid-cols-2 gap-6 mb-12">
+          {comparisonItems.map((item, index) => (
+            <motion.div
+              key={index}
+              initial={{ opacity: 0, y: 20 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true }}
+              transition={{ duration: 0.5, delay: index * 0.1 }}
+              className="relative"
+            >
+              <div
+                className="h-full p-6 lg:p-8"
+                style={{
+                  background: 'var(--paper)',
+                  border: '2px solid var(--ink)',
+                }}
               >
-                <div className="p-4 lg:p-6 flex items-center">
-                  <span className="font-medium" style={{ color: 'var(--ink)' }}>
+                {/* Icon & Label */}
+                <div className="flex items-center gap-3 mb-6">
+                  <div
+                    className="w-10 h-10 flex items-center justify-center"
+                    style={{ background: 'var(--lime)' }}
+                  >
+                    <item.icon className="w-5 h-5" style={{ color: 'var(--ink)' }} />
+                  </div>
+                  <span className="font-display text-lg font-bold" style={{ color: 'var(--ink)' }}>
                     {item.label}
                   </span>
                 </div>
-                <div className="p-4 lg:p-6 text-center flex items-center justify-center border-l" style={{ borderColor: 'var(--border)' }}>
-                  <span className="line-through" style={{ color: 'var(--ink-muted)' }}>
-                    {item.traditional}
-                  </span>
-                </div>
-                <div
-                  className="p-4 lg:p-6 text-center flex items-center justify-center border-l"
-                  style={{ background: 'rgba(198, 241, 53, 0.1)', borderColor: 'var(--border)' }}
-                >
-                  <span className="font-bold" style={{ color: 'var(--ink)' }}>
-                    {item.flashcheck}
-                  </span>
-                </div>
-              </motion.div>
-            ))}
-          </div>
-        </motion.div>
 
-        {/* Special Offer */}
+                {/* Comparison */}
+                <div className="space-y-4">
+                  {/* Traditional */}
+                  <div className="flex items-center justify-between p-3" style={{ background: 'var(--paper-warm)' }}>
+                    <span className="text-sm" style={{ color: 'var(--ink-muted)' }}>기존 방식</span>
+                    <span className="text-sm line-through" style={{ color: 'var(--ink-muted)' }}>
+                      {item.traditional}
+                    </span>
+                  </div>
+
+                  {/* FlashCheck */}
+                  <div
+                    className="flex items-center justify-between p-3"
+                    style={{ background: 'rgba(198, 241, 53, 0.15)' }}
+                  >
+                    <span className="text-sm font-medium" style={{ color: 'var(--ink)' }}>FlashCheck</span>
+                    <span className="font-bold" style={{ color: 'var(--ink)' }}>
+                      {item.flashcheck}
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </motion.div>
+          ))}
+        </div>
+
+        {/* Bottom Summary */}
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
-          transition={{ duration: 0.5, delay: 0.3 }}
-          className="mb-12"
+          transition={{ duration: 0.5, delay: 0.4 }}
         >
           <div
             className="relative p-6 lg:p-8 text-center"
@@ -173,73 +156,39 @@ export function PricingSection() {
             <div className="flex items-center justify-center gap-2 mb-4">
               <Gift className="w-6 h-6" style={{ color: 'var(--lime)' }} />
               <span className="text-lg font-bold" style={{ color: 'var(--lime)' }}>
-                특별 제안
+                얼리버드 혜택
               </span>
             </div>
 
-            <p className="text-lg lg:text-xl" style={{ color: 'var(--paper)' }}>
-              지금 사전 예약하시면 정식 출시 때{' '}
+            <p className="text-lg lg:text-xl mb-4" style={{ color: 'var(--paper)' }}>
+              지금 사전 예약하시면 정식 출시 때
+              <br />
               <span
-                className="font-bold px-2 py-1"
+                className="font-bold px-2 py-1 mt-2 inline-block"
                 style={{ background: 'var(--lime)', color: 'var(--ink)' }}
               >
-                평생 50% 할인
-              </span>{' '}
-              혜택을 드립니다.
-            </p>
-          </div>
-        </motion.div>
-
-        {/* Features list */}
-        <motion.div
-          initial={{ opacity: 0 }}
-          whileInView={{ opacity: 1 }}
-          viewport={{ once: true }}
-          transition={{ duration: 0.5, delay: 0.4 }}
-          className="grid sm:grid-cols-2 lg:grid-cols-4 gap-4"
-        >
-          {features.map((feature, index) => (
-            <motion.div
-              key={index}
-              initial={{ opacity: 0, y: 10 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true }}
-              transition={{ duration: 0.3, delay: 0.5 + index * 0.05 }}
-              className="flex items-center gap-2 justify-center"
-            >
-              <div
-                className="w-5 h-5 flex items-center justify-center"
-                style={{ background: 'var(--lime)' }}
-              >
-                <Check className="w-3 h-3" style={{ color: 'var(--ink)' }} />
-              </div>
-              <span className="text-sm" style={{ color: 'var(--ink)' }}>
-                {feature}
+                50% 할인
               </span>
-            </motion.div>
-          ))}
-        </motion.div>
+              {' '}혜택을 드립니다.
+            </p>
 
-        {/* CTA */}
-        <motion.div
-          initial={{ opacity: 0, y: 20 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true }}
-          transition={{ duration: 0.5, delay: 0.5 }}
-          className="mt-12 text-center"
-        >
-          <a
-            href="#final-cta"
-            className="inline-flex items-center gap-2 px-8 py-4 font-semibold transition-all duration-200 hover:translate-x-1"
-            style={{
-              background: 'var(--lime)',
-              color: 'var(--ink)',
-              clipPath: 'polygon(0 0, calc(100% - 8px) 0, 100% 8px, 100% 100%, 8px 100%, 0 calc(100% - 8px))'
-            }}
-          >
-            <span>사전 예약하고 50% 할인받기</span>
-            <ArrowRight className="w-5 h-5" />
-          </a>
+            <p className="text-sm mb-6" style={{ color: 'var(--ink-muted)' }}>
+              가격은 정식 출시 시 공개됩니다.
+            </p>
+
+            <a
+              href="#final-cta"
+              className="inline-flex items-center gap-2 px-8 py-4 font-semibold transition-all duration-200 hover:translate-x-1"
+              style={{
+                background: 'var(--lime)',
+                color: 'var(--ink)',
+                clipPath: 'polygon(0 0, calc(100% - 8px) 0, 100% 8px, 100% 100%, 8px 100%, 0 calc(100% - 8px))'
+              }}
+            >
+              <span>사전 예약하고 할인받기</span>
+              <ArrowRight className="w-5 h-5" />
+            </a>
+          </div>
         </motion.div>
       </div>
     </section>

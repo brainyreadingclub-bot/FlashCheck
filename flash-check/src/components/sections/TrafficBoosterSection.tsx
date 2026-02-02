@@ -201,7 +201,7 @@ export function TrafficBoosterSection() {
               <div className="mb-4">
                 <div className="flex justify-between text-xs mb-2">
                   <span style={{ color: 'var(--ink-muted)' }}>광고 예산</span>
-                  <span style={{ color: 'var(--paper)' }}>35,000 / 50,000원</span>
+                  <span style={{ color: 'var(--paper)' }}>28,000 / 40,000원</span>
                 </div>
                 <div className="h-2" style={{ background: 'var(--ink-light)' }}>
                   <div

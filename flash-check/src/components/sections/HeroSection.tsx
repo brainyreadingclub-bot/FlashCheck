@@ -108,7 +108,7 @@ export function HeroSection() {
               className="flex flex-wrap gap-6 text-sm"
               style={{ color: 'var(--ink-muted)' }}
             >
-              {['신용카드 불필요', '7일 무료 체험', '언제든 취소'].map((item, i) => (
+              {['코딩 불필요', '10분 내 검증', '결제 기능 없음'].map((item, i) => (
                 <div key={i} className="flex items-center gap-2">
                   <span
                     className="w-1.5 h-1.5 rounded-full"
@@ -205,11 +205,11 @@ export function HeroSection() {
               {/* CTA link */}
               <div className="mt-8 pt-6 border-t border-white/10">
                 <a
-                  href="#pricing"
+                  href="#solution"
                   className="inline-flex items-center gap-2 text-sm font-medium group"
                   style={{ color: 'var(--lime)' }}
                 >
-                  <span>요금제 확인하기</span>
+                  <span>어떻게 작동하나요?</span>
                   <ArrowRight className="w-4 h-4 transition-transform group-hover:translate-x-1" />
                 </a>
               </div>

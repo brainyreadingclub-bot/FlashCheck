@@ -8,7 +8,7 @@ const steps = [
     number: '01',
     icon: FileText,
     title: '가설 입력',
-    description: '누가(X), 무엇을(Y), 얼마에(Z) 살 것인지 입력하세요.',
+    description: '누가(X), 무엇을(Y), 얼마에(Z) 살 것인지 입력하세요. 복잡한 기획서는 필요 없습니다.',
     time: '30초',
     color: 'var(--lime)',
   },
@@ -16,7 +16,7 @@ const steps = [
     number: '02',
     icon: Sparkles,
     title: 'AI 파사드 생성',
-    description: '고성과 패턴을 학습한 AI가 판매 페이지와 제품 이미지를 완성합니다.',
+    description: '100개+ 검증된 고성과 랜딩페이지 패턴을 학습한 AI가 업종별 최적화된 카피와 이미지를 생성합니다.',
     time: '3분',
     color: 'var(--electric)',
   },
@@ -24,7 +24,7 @@ const steps = [
     number: '03',
     icon: BarChart3,
     title: '시장 검증',
-    description: "Fake Door로 고객의 '진짜 행동 데이터'를 수집합니다. 의견이 아닌 클릭 데이터입니다.",
+    description: "Fake Door로 고객의 '진짜 행동 데이터'를 수집합니다. 의견이 아닌 클릭 데이터로 Go/Drop을 판정합니다.",
     time: '실시간',
     color: 'var(--coral)',
   },
@@ -32,7 +32,7 @@ const steps = [
 
 export function SolutionSection() {
   return (
-    <section className="relative py-24 lg:py-32 overflow-hidden" style={{ background: 'var(--paper)' }}>
+    <section id="solution" className="relative py-24 lg:py-32 overflow-hidden" style={{ background: 'var(--paper)' }}>
       {/* Background decoration */}
       <div
         className="absolute top-0 right-0 w-[40vw] h-[40vw] rounded-full opacity-10"
