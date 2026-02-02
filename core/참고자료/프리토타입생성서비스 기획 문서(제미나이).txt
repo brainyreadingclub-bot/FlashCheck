@@ -1,0 +1,307 @@
+﻿프리토타입생성서비스 기획 문서(제미나이)
+
+
+단무지님, 반갑습니다. '서비스 기획' 전문가입니다.
+업로드해주신 방대한 자료와 **FlashCheck(플래시체크)**의 핵심 컨셉을 완벽하게 숙지했습니다. 알베르토 사보이아의 "아이디어 불패의 법칙"을 시스템화한 이 멋진 프로젝트를 성공적인 비즈니스로 실현하기 위해, 제가 가진 모든 역량을 동원하여 체계적인 설계를 도와드리겠습니다.
+요청하신 대로 **[서비스 개요 -> PRD -> 기술/시스템 -> 유저/데이터 흐름 -> 로드맵]**의 순서로 문서를 작성할 것이며, 각 단계마다 해당 분야의 세계 최고 수준의 페르소나를 빙의하여 진행하겠습니다.
+다음은 FlashCheck 개발을 위한 마스터 플랜입니다.
+🚀 Project FlashCheck: 문서 작성 및 개발 실행 계획
+STEP 1. 서비스 개요 정립 (Service Overview)
+> "왜 만드는가? 무엇이 본질인가?"를 정의하여 AI와 팀의 방향성을 통일합니다.
+> 
+ * 🕵️ 담당 페르소나: Alberto's Disciple (알베르토의 수제자, 실리콘밸리 프로덕트 비전 전략가)
+   * 특징: '아이디어 불패의 법칙'을 뼛속까지 이해하고 있으며, 시장의 '데이터'만을 신뢰하는 냉철한 전략가입니다.
+ * 작성 핵심 내용:
+   * FlashCheck의 탄생 배경과 해결하려는 진짜 문제 ("상상은 그만, 증명하라").
+   * XYZ 가설에 기반한 서비스의 핵심 가치 정의.
+   * AI가 이 서비스를 개발해야 하는 당위성("나에게 중요한 일"이 아닌 "AI가 이해할 데이터셋" 구축).
+STEP 2. 제품 요구사항 명세서 (PRD)
+> 단순 기능 명세가 아닌, '맥락'을 공유하여 AI가 스스로 판단하게 만드는 가드레일을 세웁니다.
+> 
+ * 👮 담당 페르소나: David Kim (유니콘 SaaS 출신 수석 프로덕트 오너)
+   * 특징: 수천 개의 초기 스타트업을 검증해본 경험이 있으며, '맥락 유실'을 극도로 경계하고 '법적 안전장치'와 '비즈니스 모델'을 시스템에 녹여내는 데 탁월합니다.
+ * 작성 핵심 내용:
+   * 9가지 핵심 구성요소 완벽 정의: 배경, 목적, 사용자 스토리, 성공 지표(Skin in the Game 지수) 등.
+   * Safety Protocol: '품절 마케팅' 프레이밍, PG 미연동 등 법적 안전장치 명세.
+   * Feature Scope: MVP 단계에서 반드시 포함할 '트래픽 부스터'와 제외할 기능의 명확한 구분.
+STEP 3. 기술 스택 및 시스템 구조 (Tech Stack & Architecture)
+> 확장성과 안정성, 그리고 초기 비용 효율성을 모두 잡는 최적의 도구를 선정합니다.
+> 
+ * 🏗️ 담당 페르소나: The Growth Architect (실리콘밸리 그로스 해킹 아키텍트 + 시니어 DevOps)
+   * 특징: "구축"보다 "검증 속도"를 중시하며, Next.js와 Supabase, Vercel을 활용한 빠르고 확장 가능한 설계를 선호합니다.
+ * 작성 핵심 내용:
+   * Tech Stack: Next.js(FE), Supabase(BE/DB), Vercel(Hosting), OpenAI(AI) 선정 이유와 시너지 분석.
+   * System Architecture: 사용자 입력(XYZ) -> AI 파사드 생성 -> 배포 -> 트래픽 주입 -> 데이터 분석으로 이어지는 전체 파이프라인 설계.
+STEP 4. 유저 흐름 및 데이터 흐름 (User & Data Flow)
+> 사용자의 경험과 데이터의 이동 경로를 시각화하여 논리적 허점을 제거합니다.
+> 
+ * 🎨 담당 페르소나: Award-winning UX Researcher & Data Scientist (사용자 경험 및 데이터 분석 전문가)
+   * 특징: 사용자의 '마찰'을 최소화하는 흐름과, '의사결정'을 위한 데이터 파이프라인을 설계합니다.
+ * 작성 핵심 내용:
+   * User Flow: 가설 입력 -> 80/20 에디터 수정 -> 배포 및 광고 집행 -> 결과 리포트 확인의 단계별 경험 설계.
+   * Data Flow: XYZ 입력값의 AI 프롬프트 변환 과정, 클릭 데이터의 집계 및 'Go/Drop' 판정 로직의 흐름.
+STEP 5. 로드맵 설계 (Roadmap)
+> 거대한 비전을 검증 가능한 최소 단위(시나리오)로 쪼개어 실행합니다.
+> 
+ * ⏱️ 담당 페르소나: Scrum Master Pro (애자일 프로젝트 관리 및 WBS 전문가)
+   * 특징: "한 번에 다 만들지 않는다"는 철칙을 가지고, 마일스톤 -> 워크 패키지 -> 시나리오로 업무를 쪼개어 AI의 실행력을 극대화합니다.
+ * 작성 핵심 내용:
+   * Milestone: Dogfooding(자체 검증) -> Wizard of Oz(수동 대행) -> Automation(자동화) 단계별 목표 설정.
+   * Scenario: BDD(Given-When-Then) 형식을 활용한 AI 개발 지시서 작성.
+단무지님, 이 계획대로라면 FlashCheck는 단순한 아이디어를 넘어, 실제 작동하고 수익을 창출하는 서비스로 탄생할 수 있습니다.
+가장 먼저 **[STEP 1. 서비스 개요 정립]**부터 시작하여, 실리콘밸리 프로덕트 비전 전략가의 관점에서 문서를 작성해 드리겠습니다.
+준비되셨다면, "시작해줘"라고 말씀해 주세요. 바로 첫 번째 문서 작성을 시작하겠습니다.
+[STEP 1] 서비스 개요 정립 (Service Overview)
+반갑습니다. Alberto's Disciple입니다.
+지금부터 우리는 단순히 소프트웨어를 만드는 것이 아닙니다. 우리는 '실패 확률 0%'에 도전하는 검증 머신을 설계할 것입니다.
+알베르토 사보이아는 말했습니다. "대부분의 신제품은 실패한다. 만들지 말아야 할 것을 만들었기 때문이다."
+FlashCheck는 이 비극을 막기 위한 가장 강력한 무기입니다. AI가 이해해야 할 첫 번째 데이터셋, 서비스 개요를 다음과 같이 정의합니다.
+📝 Project FlashCheck: 서비스 개요 (Service Overview)
+1. 서비스 정의 (Definition)
+ * 서비스명: FlashCheck (플래시체크)
+ * 한 줄 요약: "상상은 그만, 증명하라." 아이디어(가설)를 입력하면 1분 만에 검증용 파사드(Facade) 페이지를 생성하고, 실제 트래픽을 주입하여 시장성 데이터를 수집하는 올인원 프리토타입(Pretotype) 자동화 서비스.
+2. 해결하고자 하는 본질적 문제 (The Core Problem)
+ * 거짓 긍정(False Positive)의 함정: 사람들은 "이거 나오면 살래?"라는 질문에 대부분 "응"이라고 답하지만, 실제로는 사지 않습니다. 창업가는 이 '의견(Opinion)'을 믿고 수개월을 낭비하여 제품을 개발합니다.
+ * 검증의 기술적 장벽: '가짜 문(Fake Door)'을 만들어 데이터를 얻으려 해도, 랜딩 페이지 제작, 도메인 연결, PG사 연동(척하기), 광고 집행 등 기술적/마케팅적 장벽이 너무 높습니다.
+3. 솔루션 및 핵심 가치 (Solution & Core Value)
+ * XYZ 가설의 시각화: 사용자가 *"적어도 X%의 Y는 Z할 것이다"*라는 가설만 입력하면, AI가 이를 설득력 있는 **랜딩 페이지(Sales Copy + Image)**로 즉시 변환합니다.
+ * Skin in the Game(피부로 느끼는 데이터) 수집: 단순 클릭이 아닌, '구매하기' 혹은 '이메일 등록'과 같은 실제 행동 데이터만을 유효 데이터로 집계하여 제공합니다.
+ * 완벽한 속임수와 윤리적 퇴장: 결제 직전까지 완벽하게 실제 서비스처럼 동작하되, 마지막 순간에 "준비 중"임을 알리고 보상(할인/얼리버드)을 제공하여 브랜드 신뢰도를 보호합니다.
+4. 타겟 페르소나 (Target Audience)
+ * The Dreamer: "대박 아이디어"가 매일 떠오르지만 개발 지식이 없어 검증을 못 하는 예비 창업가.
+ * The Lean PM: 회사 리소스를 쓰지 않고 주말 동안 빠르게 신규 기능을 검증하고 싶은 현직 PM.
+ * The Side-Hustler: 퇴근 후 부수입 아이템을 찾지만, 재고 부담 없이 시장 반응만 먼저 보고 싶은 직장인.
+5. AI 개발을 위한 핵심 지침 (Directives for AI)
+> 이 서비스는 AI, 너에게 '나'를 위한 도구가 아니라, '시장'을 읽는 도구여야 한다.
+> 
+ * 목적 우선: 예쁜 디자인보다 '클릭을 유도하는 카피라이팅'에 최적화된 결과물을 생성하라.
+ * 데이터 무결성: 유저가 입력한 XYZ 가설과 실제 수집된 클릭 데이터(CTR, CVR) 사이의 인과관계를 명확히 추적할 수 있는 DB 구조를 가져야 한다.
+ * 속도전: 사용자가 아이디어를 떠올리고 검증 페이지를 배포하기까지 5분을 넘기지 않도록 프로세스를 단축하라.
+[전략가 코멘트]
+단무지님, 이 개요는 FlashCheck가 단순한 '웹사이트 빌더'가 아님을 명확히 합니다. 우리는 **'비즈니스 가설 검증 도구'**를 만드는 것입니다. 이 정의가 명확해야 나중에 AI가 "디자인이 예뻐야 하지 않나요?" 같은 엉뚱한 제안을 하지 않습니다.
+이 서비스 개요에 동의하신다면, 다음 단계인 [STEP 2. 제품 요구사항 명세서(PRD)] 작성으로 넘어가겠습니다.
+"PRD 진행해"라고 명령해 주십시오. 실리콘밸리 출신 David Kim이 대기 중입니다.
+[STEP 2] 제품 요구사항 명세서 (PRD) 작성
+반갑습니다. David Kim입니다.
+앞서 '알베르토의 수제자'가 작성한 서비스 개요는 매우 훌륭했습니다. 하지만 개발자(AI)에게 "검증 도구를 만들어줘"라고만 하면, AI는 십중팔구 '예쁜 쓰레기'를 만들어올 겁니다.
+저는 이 추상적인 비전을 **'구현 가능한 논리'**로 번역하겠습니다. 이 PRD는 개발 과정에서 AI가 길을 잃을 때마다 돌아와야 할 **북극성(North Star)**이자 헌법입니다.
+📄 Project FlashCheck: Product Requirements Document (PRD)
+Version: 1.0
+Status: Approved for MVP
+Owner: David Kim
+1. 배경 및 목적 (Context & Goal)
+ * Background: 예비 창업가들은 아이디어 검증을 위해 랜딩 페이지 제작, 도메인 연결, 결제 모듈 연동 등에 불필요한 리소스를 낭비합니다. 이 진입 장벽 때문에 검증 없이 개발에 착수하고, 결국 실패합니다.
+ * Product Goal: "10줄의 텍스트(가설)"를 "1개의 완벽한 검증 사이트"로 3분 이내에 변환하여, 사용자가 **'Skin in the Game(실제 행동 데이터)'**을 즉시 확보하게 돕습니다.
+ * Key Metric (KPI):
+   * Time to Deploy: 가설 입력부터 배포까지 180초 미만.
+   * Data Reliability: 봇(Bot) 제외 실제 유효 클릭 데이터 정확도 99% 이상.
+2. 타겟 유저 및 페르소나 (User Persona)
+ * Primary: 'The Dreamer' (초기 창업가) - 코딩/디자인 능력 없음. 자신의 아이디어가 '대박'이라고 믿음. 빠른 확인 욕구 강함.
+ * Secondary: 'The Lean PM' (실무 기획자) - 사내 신규 프로젝트 검증용. 데이터 기반 의사결정 필요.
+3. 핵심 사용자 스토리 (User Stories) - MVP Scope
+A. 가설 설정 및 생성 (Creation)
+ * "사용자는 **XYZ 가설 포맷(적어도 X%의 Y는 Z할 것이다)**에 맞춰 아이디어를 입력할 수 있어야 한다."
+ * "사용자는 AI가 생성한 세일즈 카피와 대표 이미지를 미리보기(Preview)에서 확인하고, 마음에 들지 않으면 '재생성' 버튼으로 즉시 수정할 수 있어야 한다." (80/20 법칙: 80% 자동생성, 20% 수정)
+B. 가짜 문(Fake Door) 경험 (Validation)
+ * "방문자(End User)는 실제 서비스처럼 '구매하기' 또는 '구독하기' 버튼을 클릭할 수 있어야 한다."
+ * "버튼 클릭 시, 실제 결제가 진행되는 대신 '서비스 준비 중' 모달이 뜨고, 보상(이메일 등록 시 할인 쿠폰)을 제안받아야 한다."
+ * [Critical] "시스템은 이 '클릭' 행위를 단순 방문(Page View)과 구분하여 '전환(Conversion)' 데이터로 별도 저장해야 한다."
+C. 결과 분석 (Insights)
+ * "사용자는 대시보드에서 노출 수, 클릭 수, 클릭률(CTR), 이메일 확보 수를 실시간으로 확인할 수 있어야 한다."
+ * "AI는 수집된 데이터를 바탕으로 'Go(진행)' / 'Drop(폐기)' / 'Pivot(수정)' 중 하나의 명확한 조언을 제공해야 한다."
+4. 기능 요구사항 (Functional Requirements)
+| 우선순위 | 기능명 | 상세 설명 | 비고 |
+|---|---|---|---|
+| P0 (Must) | AI Page Generator | XYZ 가설 기반 영웅 섹션(Hero), 기능 소개(Features), CTA 버튼 자동 생성 | OpenAI API 활용 |
+| P0 (Must) | One-Click Deploy | 별도 도메인 구매 없이 flashcheck.site/user-project 형태의 서브도메인 즉시 배포 | Vercel Wildcard |
+| P0 (Must) | Fake Payment Module | PG사 연동 없이 카드 정보 입력창 UI만 제공하거나, 클릭 시 바로 모달 전환 (옵션 선택) | 법적 문제 회피용 |
+| P1 (Should) | Email Collector | "출시 알림 받기" 폼 제공 및 Supabase DB 저장 | 리드 수집용 |
+| P2 (Could) | Traffic Booster | 메타(Meta) 광고 API 연동을 위한 초석 마련 (MVP에서는 수동 대행, 데이터 구조만 설계) | 추후 BM 연동 |
+5. 데이터 요구사항 (Data Requirements)
+ * Project Table: user_id, xyz_hypothesis, generated_copy, status(draft/live)
+ * Analytics Table: project_id, event_type(view/click/submit), timestamp, referrer, device_type
+ * Lead Table: project_id, email, created_at
+6. 안전 및 법적 프로토콜 (Safety Protocol)
+ * Disclaimer Injection: 생성되는 모든 페이지의 푸터(Footer)에 "이 페이지는 시장 수요 조사를 위한 테스트 페이지입니다" 문구를 강제 삽입하여 법적 분쟁을 예방한다.
+ * No Charge Policy: 어떠한 경우에도 실제 결제 승인이 발생해서는 안 된다. (카드 번호 수집 금지, 클릭 이벤트만 트래킹)
+7. 제외 사항 (Out of Scope for MVP)
+ * 사용자 정의 도메인 연결 (Custom Domain)
+ * 복잡한 다중 페이지 구성 (싱글 랜딩 페이지만 지원)
+ * A/B 테스트 자동화 (단일 안 검증 집중)
+[David Kim의 검토 의견]
+단무지님, 이 PRD는 **'최소 기능으로 최대 검증'**을 목표로 합니다. 특히 **'No Charge Policy'**와 **'Disclaimer Injection'**은 서비스의 존속을 위해 절대 타협할 수 없는 규칙입니다. 개발 단계에서 AI가 실수로라도 PG 연동 코드를 짜지 않도록 명시했습니다.
+이 PRD를 기준으로 시스템을 설계한다면, 기술적으로 가볍지만 비즈니스적으로는 강력한 도구가 될 것입니다.
+이제 이 요구사항을 구현할 **'구체적인 도구'**를 정할 차례입니다.
+다음 단계인 **[STEP 3. 기술 스택 및 시스템 구조]**로 넘어가시겠습니까?
+"시스템 설계해"라고 명령해 주십시오. 🚀
+[STEP 3] 기술 스택 및 시스템 구조 (Tech Stack & Architecture)
+반갑습니다. The Growth Architect입니다.
+David가 넘겨준 PRD는 아주 명확하군요. 제 임무는 이 요구사항을 "가장 빠르고, 가장 저렴하며, 언제든 확장 가능한" 시스템으로 구현하는 것입니다.
+FlashCheck의 핵심은 **'속도(Velocity)'**입니다. 복잡한 오버엔지니어링은 배제하고, Next.js + Supabase + Vercel이라는 현대 웹 개발의 '삼위일체(Holy Trinity)'를 사용하여, 단 3일 만에 MVP를 라이브 할 수 있는 구조를 설계했습니다.
+🏗️ Project FlashCheck: System Architecture
+1. 기술 스택 선정 (Tech Stack Selection)
+| 구분 | 기술 스택 | 선정 이유 (Why this?) |
+|---|---|---|
+| Frontend | Next.js 14 (App Router) | SEO 최적화가 필수인 랜딩 페이지 생성에 유리하며, React Server Components를 통해 초기 로딩 속도를 비약적으로 향상시킵니다. |
+| Backend / DB | Supabase | 별도의 백엔드 서버 구축 없이 인증(Auth), 데이터베이스(Postgres), 실시간 구독(Realtime)을 한 번에 해결합니다. 초기 개발 시간을 50% 이상 단축합니다. |
+| Hosting | Vercel | Next.js와의 완벽한 호환성. 특히 Wildcard Subdomains 기능을 통해 사용자별 검증 페이지(project.flashcheck.site)를 설정 없이 즉시 배포할 수 있습니다. |
+| AI Engine | OpenAI GPT-4o | 짧은 가설(XYZ)을 설득력 있는 긴 세일즈 카피로 변환하는 '맥락 추론' 능력이 가장 탁월합니다. (JSON Mode를 사용하여 구조화된 데이터 응답 보장) |
+| Styling | Tailwind CSS + Shadcn/ui | AI가 코드를 생성할 때 클래스 이름만으로 디자인을 통제하기 가장 쉽고, 일관된 디자인 시스템을 유지하기 유리합니다. |
+2. 시스템 아키텍처 (System Architecture)
+전체 시스템은 **'생성(Builder)'**과 **'소비(Viewer)'**의 두 가지 파이프라인으로 나뉩니다.
+graph TD
+    %% User Action Flow
+    User[Creator] -->|1. XYZ 가설 입력| Web[FlashCheck Web (Next.js)]
+    Web -->|2. 프롬프트 전송| AI[OpenAI GPT-4o]
+    AI -->|3. JSON 데이터 반환 (Copy + Image)| Web
+    Web -->|4. 미리보기 및 저장| DB[(Supabase DB)]
+    
+    %% Deployment Flow
+    DB -->|5. 프로젝트 데이터| Vercel[Vercel Edge Network]
+    Vercel -->|6. Wildcard Routing (*.flashcheck.site)| Visitor[End User / Traffic]
+    
+    %% Analytics Flow
+    Visitor -->|7. 버튼 클릭 (Fake Door)| Edge[Supabase Edge Function]
+    Edge -->|8. 이벤트 로깅 (Go/Drop 판정)| Analytics[(Supabase Analytics Table)]
+    Analytics -->|9. 대시보드 시각화| User
+
+
+3. 데이터베이스 설계 (ERD - Supabase)
+PRD의 데이터 요구사항을 실제 구현 가능한 스키마로 변환했습니다.
+A. projects (검증 프로젝트)
+ * id (UUID): Primary Key
+ * user_id (UUID): 생성자 ID (FK)
+ * slug (Text): 서브도메인 주소 (Unique) - 예: vegan-cookie
+ * hypothesis_xyz (JSONB): XYZ 가설 원문
+ * generated_content (JSONB): AI가 생성한 헤드라인, 본문, 이미지 URL 등
+ * theme_config (JSONB): 메인 컬러, 폰트 설정
+ * status (Enum): draft | published | archived
+B. analytics_events (행동 데이터)
+ * id (BigInt): Auto Increment
+ * project_id (UUID): FK
+ * event_type (Enum): page_view | cta_click (구매버튼) | lead_submit (이메일)
+ * visitor_session_id (Text): 중복 집계 방지용 쿠키 ID
+ * meta_data (JSONB): 유입 경로(Referrer), 디바이스 정보, 국가 등
+C. leads (잠재 고객)
+ * id (BigInt)
+ * project_id (UUID): FK
+ * email (Text): 수집된 이메일
+ * created_at (Timestamp)
+4. 핵심 기술적 챌린지 및 해결 방안 (Technical Challenges)
+Q1. 사용자가 생성한 페이지를 어떻게 즉시 배포(*.flashcheck.site)하는가?
+ * Solution: Vercel의 Middleware 기능을 사용합니다.
+ * 들어오는 요청의 Host 헤더를 감지하여, 서브도메인이 감지되면 메인 앱의 pages/_sites/[site]/index.tsx와 같은 동적 라우트로 내부 리라이팅(Rewrite)을 수행합니다. 별도의 배포 과정 없이 DB 데이터만 있으면 즉시 페이지가 뜹니다.
+Q2. AI가 생성한 디자인이 깨지지 않게 하려면?
+ * Solution: **'엄격한 스키마(Strict Schema)'**를 적용합니다.
+ * AI에게 HTML 전체를 짜라고 하지 않고, 정해진 JSON 포맷(Title, Subtitle, Feature_1_Title 등)으로 내용만 채우게 합니다. UI 레이아웃은 우리가 미리 코딩해 둔 템플릿 컴포넌트(HeroSection.tsx)에 데이터를 주입하는 방식으로 안전성을 확보합니다.
+[아키텍트의 제언]
+단무지님, 이 구조는 초기 비용이 거의 '0원'에 가깝습니다. 트래픽이 폭발하기 전까지는 무료 티어만으로도 충분히 운영 가능하며, 트래픽이 늘어나면 서버 증설 없이 요금제만 올리면 되는 Serverless 구조입니다.
+이제 뼈대(구조)는 완성되었습니다. 이 위에서 사용자가 실제로 어떤 경험을 하게 될지 시나리오를 그릴 차례입니다.
+다음 단계인 **[STEP 4. 유저 흐름 및 데이터 흐름]**으로 넘어가서, 사용자의 클릭 하나하나가 어떻게 데이터로 변하는지 설계하겠습니다.
+"유저 흐름 설계해"라고 명령해 주십시오.
+[STEP 4] 유저 흐름 및 데이터 흐름 (User & Data Flow)
+반갑습니다. Award-winning UX Researcher & Data Scientist입니다.
+앞선 단계에서 시스템의 '뼈대(Architecture)'를 세웠다면, 저는 그 위를 흐르는 '혈액(Data)'과 '신경(User Experience)'을 연결하겠습니다.
+FlashCheck의 성공은 "사용자(Creator)에게는 마법 같은 속도를, 방문자(Visitor)에게는 완벽한 현실감을" 주는 데 달려 있습니다. 동시에 데이터는 "오차 없이 냉정해야" 합니다. 이 원칙에 입각하여 흐름을 설계했습니다.
+🎨 1. 유저 흐름 (User Flow)
+> 핵심 철학: "Don't Make Me Think." 사용자의 고민 시간을 0으로 수렴시킵니다.
+> 
+이 흐름은 두 명의 주체, **Creator(기획자)**와 **Visitor(잠재 고객)**의 여정으로 나뉩니다.
+Flow A: Creator's Journey (생성 및 배포)
+ * 가설 입력 (Input): "적어도 X%의 Y는 Z할 것이다" 템플릿에 빈칸만 채웁니다. (인지 부하 최소화)
+ * AI 매직 (Generation): 로딩 스피너 대신 "AI가 시장을 분석 중입니다..."라는 마이크로 카피로 기대감을 조성합니다. (30초~1분)
+ * 80/20 에디팅 (Review): 생성된 결과물(카피+이미지)을 확인합니다. 마음에 안 들면 '재생성', 좋으면 '수정' 없이 바로 진행합니다.
+ * 즉시 배포 (Deploy): '배포하기' 버튼 클릭 시 project.flashcheck.site 링크가 즉시 생성됩니다.
+Flow B: Visitor's Journey (검증 실험)
+ * 유입 (Traffic): SNS나 커뮤니티 링크를 통해 랜딩 페이지에 접속합니다.
+ * 설득 (Persuasion): AI가 작성한 매혹적인 카피와 이미지를 소비합니다.
+ * 결정적 순간 (The Moment of Truth): '구매하기' 또는 '사전 예약' 버튼을 클릭합니다. (이 시점에 데이터 집계 +1)
+ * 윤리적 퇴장 (Ethical Exit): 결제창 대신 "준비 중입니다" 모달이 뜹니다.
+   * UX Tip: "죄송합니다"가 아니라 "축하합니다! 얼리버드 대상자로 선정되셨습니다"로 프레이밍하여 부정적 경험을 긍정으로 전환하고 이메일을 입력받습니다.
+<!-- end list -->
+graph TD
+    %% Creator Flow
+    subgraph "Creator (기획자)"
+    Start((Start)) --> Input[XYZ 가설 입력]
+    Input --> AI_Gen{AI 생성 중...}
+    AI_Gen --> Review[결과물 미리보기]
+    Review -->|마음에 안 듦| Retry[재생성 요청]
+    Review -->|승인| Deploy[배포하기 버튼 클릭]
+    Deploy --> Share[링크 복사 & 공유]
+    end
+
+
+    %% Visitor Flow
+    subgraph "Visitor (잠재 고객)"
+    Traffic[SNS/광고 유입] --> Landing[랜딩 페이지 조회]
+    Landing --> Read[스크롤 & 탐색]
+    Read --> CTA_Click{구매/참여 버튼 클릭}
+    CTA_Click -->|Click!| FakeDoor[가짜 문(Fake Door) 모달]
+    FakeDoor -->|이메일 입력| Success[완료 페이지 & 쿠폰 지급]
+    FakeDoor -->|닫기| Drop[이탈]
+    end
+
+
+    Retry --> AI_Gen
+    Share -.-> Traffic
+
+
+📊 2. 데이터 흐름 (Data Flow)
+> 핵심 철학: "Garbage In, Garbage Out." AI가 엉뚱한 소리를 하지 않도록 입력을 통제하고, 결과는 정밀하게 추적합니다.
+> 
+데이터 흐름은 **생성 파이프라인(Creation Pipeline)**과 **분석 파이프라인(Analytics Pipeline)**으로 구분됩니다.
+Data Pipeline 1: 프롬프트 엔지니어링 & 생성 (Creation)
+ * Input Refinement: 사용자의 거친 XYZ 입력값을 백엔드에서 다듬습니다. (예: 오타 수정, 문맥 보강)
+ * Structured Output: OpenAI API에 response_format: { type: "json_object" }를 강제하여, 디자인이 깨지지 않는 완벽한 JSON 데이터를 받습니다.
+Data Pipeline 2: 텔레메트리 & 분석 (Analytics)
+ * Client-Side Tracking: 방문자의 브라우저에서 발생하는 이벤트(View, Scroll, Click)를 캡처합니다.
+ * Bot Filtering: User-Agent를 분석하여 크롤러나 봇의 클릭은 DB 저장 단계에서 사전에 차단합니다. (데이터 오염 방지)
+ * Insight Generation: 수집된 View 대비 Click 비율(CTR)을 계산하여, AI가 "이 아이디어는 될 놈입니다(Go)" 또는 "폐기하세요(Drop)"라고 판단하는 근거로 삼습니다.
+<!-- end list -->
+sequenceDiagram
+    participant User as Creator
+    participant FE as Next.js Client
+    participant BE as Supabase Edge Function
+    participant AI as OpenAI (GPT-4o)
+    participant DB as Supabase DB
+
+
+    Note over User, DB: [생성 단계]
+    User->>FE: XYZ 가설 입력
+    FE->>AI: 시스템 프롬프트 + XYZ 전송
+    AI-->>FE: JSON 응답 (카피, 이미지URL, 테마)
+    FE->>User: 미리보기 렌더링
+    User->>FE: '배포' 클릭
+    FE->>DB: 프로젝트 데이터 저장 (Insert Project)
+
+
+    Note over User, DB: [검증/분석 단계]
+    participant Visitor
+    Visitor->>FE: 페이지 접속 (View)
+    FE->>BE: PageView 이벤트 전송
+    BE->>DB: Log 저장 (Bot 필터링)
+    Visitor->>FE: '구매하기' 클릭 (Conversion)
+    FE->>BE: Click 이벤트 전송
+    BE->>DB: Conversion 저장 & 카운트 증가
+    
+    User->>FE: 대시보드 조회
+    FE->>DB: 통계 쿼리 (Select Aggregation)
+    DB-->>FE: CTR, Lead 수 반환
+    FE-->>User: 차트 및 AI 인사이트 표시
+
+
+💡 3. 데이터 스키마 핵심 전략 (Schema Strategy)
+단순한 저장이 아니라 '분석'에 최적화된 스키마를 설계했습니다.
+ * projects 테이블의 configuration JSON 컬럼:
+   * 페이지의 모든 텍스트, 색상, 이미지 위치 정보를 하나의 JSON 컬럼에 몰아넣습니다.
+   * 이유: 스키마 변경 없이 AI가 새로운 디자인 요소를 자유롭게 추가/수정할 수 있도록 유연성을 확보하기 위함입니다.
+ * events 테이블의 파티셔닝(Partitioning):
+   * 로그 데이터는 기하급수적으로 쌓입니다. 이를 날짜별 혹은 프로젝트별로 파티셔닝하여 조회 속도 저하를 방지합니다.
+[UX/Data 전문가의 의견]
+단무지님, 이 흐름은 **"최소한의 노력으로 최대한의 진실"**을 얻어내는 데 최적화되어 있습니다.
+ * Creator는 복잡한 설정 없이 3번의 클릭(생성-확인-배포)만으로 시장에 진입합니다.
+ * Visitor는 실제와 같은 경험을 하지만, 브랜드 신뢰도를 해치지 않는 선에서 부드럽게 퇴장합니다.
+ * Data는 봇을 걸러내고 순수한 인간의 욕망(클릭)만을 담습니다.
+이제 이 설계도가 실제 현실이 되기 위한 시간표를 짤 차례입니다.
+거대한 계획을 실행 가능한 작은 조각으로 나누는 **[STEP 5. 로드맵 설계]**로 넘어가시겠습니까?
+"로드맵 설계해"라고 명령해 주십시오. 마지막 퍼즐을 맞추겠습니다.
